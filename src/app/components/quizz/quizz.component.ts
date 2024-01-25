@@ -12,8 +12,11 @@ export class QuizzComponent implements OnInit{
 
   questionSelected:any;
   answerSelected:string = "";
+
   questionIndex:number = 0;
   questionMaxIndex:number = 0;
+
+  finished:boolean = false;
 
   anwers:string[]=[]
 
